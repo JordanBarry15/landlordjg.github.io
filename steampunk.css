@@ -1,0 +1,72 @@
+body{
+    font-family: times, sans-serif, helvetica, comic;
+    line-height: 1.5;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+header{
+    background: black;
+    border-bottom:rgb(255,165,0) 5px solid;
+    border-top:rgb(255,165,0) 5px solid;
+    color: white;
+    text-decoration: none;
+    min-height: 120px;
+    max-height: 130px;
+    position: static;
+}
+
+h1{
+  color:rgb(255,165,0); 
+  margin-top: 5px;
+  margin-left: 30px;
+}
+    
+   
+
+
+header a{
+    color: white;
+    text-decoration: none;
+    min-height: 120px;
+    display: inline;
+    float: right;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+
+
+
+header li{
+    display: inline;
+    font-size: 20px;
+    color: red;
+    margin: 10px;
+}
+
+
+.showcase{
+    background:url(Citygif.gif) no-repeat 0px 0px;
+    min-height: 900px;
+    max-height: 1000px;
+    color:black;
+    background-size: cover;
+}
+    
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+header a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.highlight{
+    color: red;
+}
