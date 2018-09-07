@@ -1,7 +1,7 @@
 body{
     font-family: times, sans-serif, helvetica, comic;
     line-height: 1.5;
-    font-size: 40px;
+    font-size: 10px;
     text-align: left;
 }
 
@@ -11,16 +11,20 @@ header{
     border-bottom:rgb(255,165,0) 5px solid;
     border-top:rgb(255,165,0) 5px solid;
     color: white;
-    text-decoration: none;
     min-height: 120px;
-    max-height: 130px;
-    position: static;
+    
+    
+    
+    text-decoration: none;
+    
 }
 
-h1{
+header h1{
   color:rgb(255,165,0); 
-  margin-top: 5px;
-  margin-left: 30px;
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  font-size: 80px;
 }
     
    
@@ -29,12 +33,12 @@ h1{
 header a{
     color: white;
     text-decoration: none;
-    min-height: 30px;
+    
     display: inline;
     position: relative;
-    bottom: 100px;
+    
     margin: 10px;
-    float: right;
+   
     
 }
 
@@ -44,8 +48,9 @@ header a{
 header li{
     
     display: inline;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(255,165,0);
+    
     
 }
 
@@ -59,7 +64,7 @@ header li{
 }
     
 .container{
-    width: 80%;
+    width: 90%;
     margin: auto;
     
 }
@@ -87,7 +92,55 @@ header a:hover{
     
 }
 #sidebar {
-    
+    margin-top: 50px;
+    margin-right: 50px;
     float: right;
     background-color: blue;
 }
+nav {
+ float: right;   
+ margin-top: 50px;
+}
+@media(max-width: 1225px){
+    header h1{
+        color: purple;
+        
+    }
+    header{
+        min-height: 300px;
+    }
+    nav{
+        float: center;
+    }
+    header h1{
+        
+    }
+    
+}
+html{
+    background:black;
+}
+#sidebarleft{
+    color: red;
+}
+#sidebarleft h2{
+    width:60%;
+     float: right;
+}
+footer{
+    float: center;
+   text-decoration: none;
+    text-align: center;
+    color: white;
+    
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+
