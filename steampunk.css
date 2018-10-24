@@ -1,7 +1,7 @@
 body{
     font-family: times, sans-serif, helvetica, comic;
     line-height: 1.5;
-    font-size: 10px;
+    
     text-align: left;
 }
 
@@ -12,6 +12,7 @@ header{
     border-top:rgb(255,165,0) 5px solid;
     color: white;
     min-height: 120px;
+    
     
     
     
@@ -62,6 +63,13 @@ header li{
     color:black;
     background-size: cover;
 }
+.showcase1{
+    
+    min-height: 900px;
+    max-height: 1000px;
+    color:black;
+   
+}
     
 .container{
     width: 90%;
@@ -92,7 +100,7 @@ header a:hover{
     
 }
 #sidebar {
-    margin-top: 50px;
+    
     margin-right: 50px;
     float: right;
     background-color: blue;
@@ -122,21 +130,57 @@ html{
 }
 #sidebarleft{
     color: red;
+    
 }
 #sidebarleft h2{
-    width:60%;
-     float: right;
+    width:80%;
+    float: left;
+    margin-left: 60px;
+     
 }
 footer{
-    float: center;
-   text-decoration: none;
-    text-align: center;
-    color: white;
+    background: black;
+    border-bottom:rgb(255,165,0) 5px solid;
+    border-top:rgb(255,165,0) 5px solid;
+    max-height: 140px;
+    
+    
     
     
     
 }
+footer li{
+    float: center;
+    text-decoration: blink;
+    text-align: center;
+    color: rgb(255,165,0);
+    display: list-item;
+    font-size: 20px;
+    list-style-type: none;
     
+}
+#middlecase1{
+    margin-top: 100px;
+}
+.middlecase h2{
+    color: rgb(255,165,0);
+    text-align: center;
+    text-decoration: underline;
+    font: h2font;
+    
+    
+    
+}
+.middlecase p{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+@font-face {
+    font-family: 'h2font';
+    src:
+}
     
     
     
